@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="/js/client.js"></script>
+    <title>Chatty - Realtime chat application</title>
+</head>
+<body>
+    <nav>
+        <img id="chatlogo" src="/images/logo2.png" alt="error">
+        <h1>Welcome to chatty - chatapplication for multiple users</h1>
+    </nav>
+    <div class="container">
+        <!-- <div class="message right">Andy: hi how are you  </div>
+        <div class="message left">Candy: hi how are you  </div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageinp" id="messageinp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+body{
+    height: 97vh;    
+    background-image: linear-gradient(rgb(247, 170, 249), rgb(235, 131, 148));
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#chatlogo{
+    display: block;
+    margin: auto;
+    width: 54px;
+    height: 54px;
+    margin-top: 15px;
+}
+
+.container{
+    max-width: 900px;
+    /* background-color: rgb(104, 240, 240); */
+    margin: auto;
+    height: 65vh;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.message{
+    background-color: rgb(247, 247, 217);
+    margin: 10px 10px;
+    padding: 5px 4px;
+    width: 20vw;
+    border: 2px solid grey;
+    border-radius: 7px
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    text-align: center;
+    max-width: 950px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageinp{
+    width: 87%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 31px;
+    width: 8%;
+    margin: 0px 4px;
+}
